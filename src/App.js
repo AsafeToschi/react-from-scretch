@@ -7,6 +7,7 @@ import ComFilhos from './components/ComFilhos';
 import Repeticao from './components/Repeticao';
 import Condicional from './components/Condicional';
 import CondicionalComIF from './components/CondicionalComIF';
+import IncrementNumber from './components/IncrementNumber';
 
 import './App.css';
 
@@ -14,6 +15,13 @@ const App = () => {
     return (
         <div className="App">
             
+            <Card title="{#07 - Working with states (Function)">
+                <IncrementNumber 
+                    num={20}
+                    step={1}
+                />
+            </Card>
+
             <Card title="#06 - Condicional com componente IF">
                 <CondicionalComIF number={354}></CondicionalComIF>
             </Card>
