@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import If from'./If'
 const CondicionalComIF = (props) => {
     return (

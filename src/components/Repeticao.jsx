@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import produtos from '../data/products';
 
 const Repepticao = () => {
